@@ -1,11 +1,11 @@
 chantitle
 =========
-Chantitle is a soft extension that alter tabs title on google Google Chrome.
+Chantitle is a soft extension that alter tabs title on Google Chrome.
 
-How use?
+How install?
 
 1. Download or clone this repository
-2. Open chrome browser and select "settings" option (top right, beside url bar)
+2. Open chrome browser and select "settings" option (top right, beside address bar)
 3. Select "Tools" option on list and after "Extensions"
 
 4. On this page select "Developer mode" checkbox

@@ -2,10 +2,11 @@
     "manifest_version": 2,
     "name": "Chantitle",
     "version": "1.0",
-    "description": "Change the title of tabs quickly and easily.", 
+    "description": "Change the title of tabs quickly and easily.",
+    "homepage_url": "https://github.com/ascari-smith/chantitle", 
     "browser_action": {
         "default_icon": "img/icon.png",
-        "default_popup": "popup.html"
+        "default_popup": "chantitle.html"
     },
     "permissions": [
         "tabs",
@@ -14,8 +15,8 @@
     ],
     "content_scripts": [
         {
-            "matches":["http://*/*", "https://*/*"],
-            "js": ["js/popup.js"]
+            "matches": ["http://none/*"],
+            "js": ["js/chantitle.js"]
         }
     ]
 }
